@@ -699,7 +699,7 @@ class Game:
     def run(self):
         running = True
         while running:
-            # Update camera
+
             if not self.editor_mode and self.game_state == "playing":
                 target_x = int(self.player.x + 16 - 400)
                 target_y = int(self.player.y + 16 - 300)
@@ -709,8 +709,7 @@ class Game:
                 
                 self.camera_x = target_x
                 self.camera_y = target_y
-            
-            # Handle events
+
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     self.save_map()
