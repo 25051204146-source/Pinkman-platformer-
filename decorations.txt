@@ -1,0 +1,7 @@
+160,384,mushroom_red
+0,288,mushroom_red
+256,384,long_grass
+288,384,short_grass
+32,384,fence
+64,384,fence
+544,384,fence
